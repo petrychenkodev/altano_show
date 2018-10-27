@@ -1,1 +1,1 @@
-https://petrychenkodev.github.io/altano_show/
+list of pages https://petrychenkodev.github.io/altano_show/
