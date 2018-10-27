@@ -1,0 +1,300 @@
+@font-face {
+  font-family: monblack;
+  src: url(../fonts/Montserrat-Black.ttf); }
+
+@font-face {
+  font-family: monblackitalic;
+  src: url(../fonts/Montserrat-BlackItalic.ttf); }
+
+@font-face {
+  font-family: monbold;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: monbolditalic;
+  src: url(../fonts/Montserrat-BoldItalic.ttf); }
+
+@font-face {
+  font-family: monexb;
+  src: url(../fonts/Montserrat-ExtraBold.ttf); }
+
+@font-face {
+  font-family: monexbitalic;
+  src: url(../fonts/Montserrat-ExtraBoldItalic.ttf); }
+
+@font-face {
+  font-family: monexli;
+  src: url(../fonts/Montserrat-ExtraLight.ttf); }
+
+@font-face {
+  font-family: monexliit;
+  src: url(../fonts/Montserrat-ExtraLightItalic.ttf); }
+
+@font-face {
+  font-family: monitalic;
+  src: url(../fonts/Montserrat-Italic.ttf); }
+
+@font-face {
+  font-family: monlight;
+  src: url(../fonts/Montserrat-Light.ttf); }
+
+@font-face {
+  font-family: monlightitalic;
+  src: url(../fonts/Montserrat-LightItalic.ttf); }
+
+@font-face {
+  font-family: monmed;
+  src: url(../fonts/Montserrat-Medium.ttf); }
+
+@font-face {
+  font-family: monmeditalic;
+  src: url(../fonts/Montserrat-MediumItalic.ttf); }
+
+@font-face {
+  font-family: monreg;
+  src: url(../fonts/Montserrat-Regular.ttf); }
+
+@font-face {
+  font-family: monsemibold;
+  src: url(../fonts/Montserrat-SemiBold.ttf); }
+
+@font-face {
+  font-family: monthin;
+  src: url(../fonts/Montserrat-Thin.ttf); }
+
+@font-face {
+  font-family: monsemibolditalic;
+  src: url(../fonts/Montserrat-SemiBoldItalic.ttf); }
+
+@font-face {
+  font-family: monthinitalic;
+  src: url(../fonts/Montserrat-ThinItalic.ttf); }
+
+.header {
+  display: grid;
+  grid-template-columns: 30fr 70fr 130fr 70fr 190fr 150fr 150fr 80fr 60fr 60fr 60fr 130fr 70fr 30fr;
+  grid-template-rows: 90px;
+  align-items: center; }
+
+.header__button {
+  font-family: monbold;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  padding: 16px 30px;
+  background-color: #fff; }
+
+.header__contacts {
+  font-family: monreg;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0; }
+
+.header__element {
+  grid-column-start: 2;
+  grid-column-end: 4; }
+  .header__element1 {
+    grid-column-start: 4;
+    grid-column-end: 5; }
+  .header__element2 {
+    grid-column-start: 5;
+    grid-column-end: 6; }
+  .header__element3 {
+    grid-column-start: 9;
+    grid-column-end: 10; }
+  .header__element4 {
+    grid-column-start: 10;
+    grid-column-end: 11; }
+  .header__element5 {
+    grid-column-start: 11;
+    grid-column-end: 12; }
+  .header__element6 {
+    grid-column-start: 12;
+    grid-column-end: 14; }
+
+@font-face {
+  font-family: monblack;
+  src: url(../fonts/Montserrat-Black.ttf); }
+
+@font-face {
+  font-family: monblackitalic;
+  src: url(../fonts/Montserrat-BlackItalic.ttf); }
+
+@font-face {
+  font-family: monbold;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: monbolditalic;
+  src: url(../fonts/Montserrat-BoldItalic.ttf); }
+
+@font-face {
+  font-family: monexb;
+  src: url(../fonts/Montserrat-ExtraBold.ttf); }
+
+@font-face {
+  font-family: monexbitalic;
+  src: url(../fonts/Montserrat-ExtraBoldItalic.ttf); }
+
+@font-face {
+  font-family: monexli;
+  src: url(../fonts/Montserrat-ExtraLight.ttf); }
+
+@font-face {
+  font-family: monexliit;
+  src: url(../fonts/Montserrat-ExtraLightItalic.ttf); }
+
+@font-face {
+  font-family: monitalic;
+  src: url(../fonts/Montserrat-Italic.ttf); }
+
+@font-face {
+  font-family: monlight;
+  src: url(../fonts/Montserrat-Light.ttf); }
+
+@font-face {
+  font-family: monlightitalic;
+  src: url(../fonts/Montserrat-LightItalic.ttf); }
+
+@font-face {
+  font-family: monmed;
+  src: url(../fonts/Montserrat-Medium.ttf); }
+
+@font-face {
+  font-family: monmeditalic;
+  src: url(../fonts/Montserrat-MediumItalic.ttf); }
+
+@font-face {
+  font-family: monreg;
+  src: url(../fonts/Montserrat-Regular.ttf); }
+
+@font-face {
+  font-family: monsemibold;
+  src: url(../fonts/Montserrat-SemiBold.ttf); }
+
+@font-face {
+  font-family: monthin;
+  src: url(../fonts/Montserrat-Thin.ttf); }
+
+@font-face {
+  font-family: monsemibolditalic;
+  src: url(../fonts/Montserrat-SemiBoldItalic.ttf); }
+
+@font-face {
+  font-family: monthinitalic;
+  src: url(../fonts/Montserrat-ThinItalic.ttf); }
+
+.footer {
+  display: grid;
+  grid-template-columns: 30fr 70fr 130fr 260fr 150fr 150fr 260fr 130fr 70fr 30fr;
+  grid-template-rows: 280px;
+  background-color: #fff; }
+
+.footer__altano {
+  grid-area: 1 / 2 / 2 / 4;
+  width: 165px;
+  height: 50px;
+  margin-top: 40px; }
+
+ul {
+  margin: 0;
+  padding: 10px 30px; }
+  ul li {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+    position: relative; }
+    ul li a {
+      font-family: monmed;
+      font-size: 12px;
+      color: #8f8f8f;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase; }
+
+h4 {
+  font-family: monbold;
+  font-size: 12px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase; }
+
+.catalog__header h3 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  font-size: 52px; }
+
+.this {
+  color: #000; }
+
+.this::after {
+  content: url(../img/ractangle_black.png);
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  right: 0px;
+  top: 30%; }
+
+.main div h5 {
+  font-family: monreg;
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+  padding: 170px 0 0 80px; }
+
+.main div h6 {
+  font-family: monreg;
+  margin: 0;
+  font-size: 12px;
+  color: #fff;
+  padding: 15px 0 0 80px; }
+
+.main div p {
+  font-family: monreg;
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  padding: 50px 0 30px 80px; }
+
+.main div .main__more {
+  margin: 25px 0 0 80px;
+  padding: 15px 80px;
+  color: #000;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-family: monsemibold;
+  font-size: 12px;
+  text-decoration: none; }
+
+.terrace {
+  margin-right: 30px;
+  height: 435px;
+  background-image: url(../img/terrace.jpg);
+  position: relative;
+  margin-bottom: 30px; }
+
+.dinner__table {
+  margin-right: 30px;
+  height: 435px;
+  background-image: url(../img/dinner_table2.jpg);
+  position: relative;
+  margin-bottom: 30px; }
+
+.lounger {
+  margin-right: 30px;
+  height: 435px;
+  background-image: url(../img/lounger2.jpg);
+  position: relative;
+  margin-bottom: 30px; }
+
+.relax_zone {
+  margin-right: 30px;
+  height: 435px;
+  background-image: url(../img/relax_zone2.jpg);
+  position: relative;
+  margin-bottom: 30px; }
+
+.about {
+  padding-bottom: 100px; }

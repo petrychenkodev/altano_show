@@ -1,0 +1,51 @@
+@import 'fonts.scss';
+.header{
+	display: grid;
+	grid-template-columns: 30fr 70fr 130fr 70fr 190fr 150fr 150fr 80fr 60fr 60fr 60fr 130fr 70fr 30fr;
+	grid-template-rows: 90px;
+	align-items: center;
+}
+.header__button{
+	font-family: monbold;
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	padding: 16px 30px;
+	background-color:#fff;
+
+}
+.header__contacts{
+	font-family: monreg;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+}
+.header__element{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	&1{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	}
+	&2{
+	grid-column-start: 5;
+	grid-column-end: 6;
+	}
+	&3{
+	grid-column-start: 9;
+	grid-column-end: 10;
+	}
+	&4{
+	grid-column-start: 10;
+	grid-column-end: 11;
+	}
+	&5{
+	grid-column-start: 11;
+	grid-column-end: 12;
+	}
+	&6{
+	grid-column-start: 12;
+	grid-column-end: 14;
+	}
+}

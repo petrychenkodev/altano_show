@@ -1,0 +1,151 @@
+.bread {
+  grid-area: 1 / 2 / 2 / 6; }
+  .bread ul {
+    padding: 0;
+    margin: 0; }
+    .bread ul li {
+      display: inline; }
+      .bread ul li a {
+        padding: 0;
+        margin: 0;
+        font-family: monreg;
+        font-size: 12px;
+        text-decoration: none;
+        color: #bbbaba;
+        background-color: #f8f7f7;
+        text-transform: none; }
+        .bread ul li a img {
+          padding-bottom: 3px;
+          padding-left: 10px;
+          padding-right: 10px; }
+
+.catalog__header {
+  display: grid;
+  grid-template-columns: 30fr 70fr 130fr 260fr 150fr 150fr 260fr 130fr 70fr 30fr;
+  grid-template-rows: 25px 65px 100px;
+  background-color: #f8f7f7;
+  padding-bottom: 30px; }
+  .catalog__header h3 {
+    grid-area: 3 / 3 / 4 / 7;
+    font-size: 52px;
+    margin: 0;
+    align-self: start; }
+  .catalog__header a {
+    font-family: monbold;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    padding: 16px 30px;
+    background-color: #fff;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    align-self: start; }
+  .catalog__header .arrow_back_with_line {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f7f7;
+    align-self: center; }
+    .catalog__header .arrow_back_with_line span {
+      font-family: monsemibold;
+      font-size: 12px;
+      color: #686767;
+      text-transform: uppercase;
+      padding-left: 15px;
+      color: #000; }
+
+.tables {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f7f7;
+  padding-top: 60px; }
+  .tables .tables__big {
+    margin-left: 30px; }
+    .tables .tables__big .tables__white {
+      width: 710px;
+      height: 400px;
+      background-color: #fff;
+      position: relative; }
+      .tables .tables__big .tables__white .tables__big__img {
+        position: relative;
+        left: 78px; }
+      .tables .tables__big .tables__white .tables__small__img {
+        position: absolute;
+        left: 70px;
+        bottom: -60px; }
+      .tables .tables__big .tables__white .tables__arrow__right {
+        position: absolute;
+        left: 315px;
+        bottom: -40px; }
+    .tables .tables__big .tables__info .inbox {
+      font-family: monsemibold;
+      font-size: 16px;
+      color: #fff;
+      background-color: #000;
+      padding: 15px 90px;
+      grid-area: 2 / 6 / 3 / 7;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-left: 67px; }
+    .tables .tables__big .tables__info .info__code {
+      font-family: monlight;
+      font-size: 14px;
+      color: #686767;
+      margin: 145px 0 0 70px; }
+    .tables .tables__big .tables__info .info__availability {
+      font-family: monlight;
+      font-size: 14px;
+      color: #686767;
+      margin: 25px 0 0 70px; }
+    .tables .tables__big .tables__info .info__counter {
+      margin: 40px 0 0 70px; }
+      .tables .tables__big .tables__info .info__counter a {
+        text-decoration: none;
+        font-family: monlight;
+        font-size: 14px;
+        color: #686767;
+        color: #000;
+        padding: 15px;
+        border: 1px solid #000; }
+      .tables .tables__big .tables__info .info__counter :nth-child(2) {
+        border-left: none;
+        border-right: none;
+        padding: 15px 40px; }
+    .tables .tables__big .tables__info .info__economy {
+      font-family: monlight;
+      font-size: 14px;
+      color: #686767;
+      margin: 40px 0 0 70px; }
+    .tables .tables__big .tables__info .info__exprice {
+      font-family: monlight;
+      font-size: 14px;
+      color: #686767;
+      margin: 10px 0 0 70px;
+      text-decoration: line-through;
+      text-decoration-color: #686767; }
+    .tables .tables__big .tables__info .info__nowprice {
+      font-family: monlight;
+      font-size: 24px;
+      color: #686767;
+      color: #000;
+      margin: 40px 0 75px 70px; }
+    .tables .tables__big .socialbuttons {
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+      margin-left: 67px; }
+      .tables .tables__big .socialbuttons span {
+        font-family: monsemibold;
+        font-size: 12px;
+        color: #686767;
+        text-transform: uppercase;
+        margin-right: 35px; }
+      .tables .tables__big .socialbuttons .sociabuttons__img {
+        margin-right: 35px; }
+      .tables .tables__big .socialbuttons .sociabuttons__and {
+        margin-right: 15px; }
+      .tables .tables__big .socialbuttons .sociabuttons__download {
+        margin-right: 20px; }
