@@ -429,3 +429,11 @@
 
 .about {
   padding-bottom: 100px; }
+
+.header {
+  background-color: #f8f7f7; }
+  .header .header__button {
+    background-color: #000;
+    color: #fff; }
+  .header .header__contacts {
+    color: #000; }

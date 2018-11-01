@@ -351,12 +351,17 @@ body {
 
 .all {
   background-color: #f8f7f7;
-  padding-bottom: 100px; }
+  padding-bottom: 65px; }
   .all h3 {
     font-family: monreg;
     font-size: 52px;
     padding-top: 60px;
     margin: 0px 0 15px 140px; }
+  .all p {
+    font-family: monlight;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 140px; }
   .all h4 {
     font-family: monreg;
     font-size: 24px;
