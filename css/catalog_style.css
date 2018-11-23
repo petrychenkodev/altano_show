@@ -899,7 +899,7 @@ h4 {
     grid-template-columns: 30px 375px 46px 287px 30px;
     grid-template-rows: 300px 200px 400px;
     background-color: #f8f7f7;
-    padding-top: 100px;
+    padding-top: 0px;
     position: relative; }
     .intrend h3 {
       grid-column-start: 2;
@@ -921,14 +921,14 @@ h4 {
     .intrend .intrend__bg {
       width: 300px;
       position: absolute;
-      top: 210px;
+      top: 110px;
       right: 30px; }
     .intrend .intrend__white {
       height: 500px;
       width: 600px;
       background-color: #fff;
       position: absolute;
-      top: 435px;
+      top: 335px;
       right: 0px;
       z-index: 0; }
     .intrend .intrend__flex {
