@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Altano</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/catalog_style.css">
@@ -21,7 +22,7 @@
 			<a href="#">СКАЧАТЬ КАТАЛОГ</a>
 	</div>
 	<section class="container catalog">
-		<aside>
+		<aside class="hide__768">
 			<div class="catalog__choose">
 				<h4>Категории</h4>
 				<ul>
@@ -77,9 +78,24 @@
 				</ul>
 			</div>
 		</aside>
-		<main>
+		<main class="width__768">
 			<div class="catalog__sort">
+				<div class="show__filters__768"><a href="#">фильтры</a><img src="img/arrow_down.png" alt=""></div>
 				<p>сортировать по:<a href="#">популярности<img src="img/arrow_down.png" alt=""></a></p>
+				<div class="remove__all__768">
+					<span class="remove__all__768__span1">
+						<img src="img/ractangle_black.png" alt="" width="15" height="15">
+						<a href="#">Cбросить все</a>
+					</span>
+					<span>
+						<a href="#">диван <img src="img/bag_close.png" alt=""></a>
+						
+					</span>
+					<span>
+						<a href="#">biohort <img src="img/bag_close.png" alt=""></a>
+						
+					</span>
+				</div>
 			</div>
 			<div class="catalog__group">
 				<div class="catalog__group__box">
@@ -174,7 +190,7 @@
 	</section>
 	<section class="container chairs">
 		<div class="chairs__text">
-			<h3>Забронируйте <br> встречу с нашим консультантом</h3>
+			<h3>Забронируйте встречу с нашим консультантом</h3>
 			<p>Чтобы подобрать идеальную мебель для <br> вашего сада</p>
 		</div>
 		<div class="chairs__form">
