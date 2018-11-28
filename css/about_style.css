@@ -491,8 +491,7 @@ li {
 @media (min-width: 767px) and (max-width: 1278px) {
   .wellc {
     height: 1020px;
-    background-position: 30%;
-    margin: 0; }
+    background-position: 30%; }
     .wellc div {
       width: 545px;
       padding: 330px 0 0 30px;
@@ -575,7 +574,6 @@ li {
     flex-wrap: wrap;
     padding-top: 80px;
     padding-bottom: 100px;
-    margin: 0;
     margin-bottom: -3px; }
     .prof .wellc__white__rect {
       background-color: #fff;
@@ -679,8 +677,7 @@ li {
 
 @media (min-width: 767px) and (max-width: 1278px) {
   .team {
-    background-color: #f8f7f7;
-    margin: 0; }
+    background-color: #f8f7f7; }
     .team .partners {
       margin-top: 0;
       position: relative;
@@ -726,10 +723,4 @@ li {
     width: 205px;
     height: 270px; }
   .circle__flex__none {
-    display: none; }
-  .chairs {
-    margin: 0; }
-  .footer {
-    margin: 0; }
-  .about {
-    margin: 0; } }
+    display: none; } }
