@@ -521,6 +521,13 @@ body {
       margin: 0 22px; }
 
 @media (min-width: 767px) and (max-width: 1278px) {
+  .container {
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0; } }
+
+@media (min-width: 767px) and (max-width: 1278px) {
   .news {
     background-color: #f8f7f7; }
     .news h3 {
