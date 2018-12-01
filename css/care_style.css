@@ -652,6 +652,11 @@ li {
         cursor: pointer; } }
 
 @media (min-width: 767px) and (max-width: 1278px) {
+  .container {
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0; }
   .about {
     background-color: #f8f7f7;
     padding-top: 100px;

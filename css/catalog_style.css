@@ -894,6 +894,11 @@ h4 {
       padding-bottom: 50px; }
 
 @media (min-width: 767px) and (max-width: 1278px) {
+  .container {
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0; }
   .intrend {
     display: grid;
     grid-template-columns: 30px 375px 46px 287px 30px;
