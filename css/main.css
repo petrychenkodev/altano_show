@@ -155,6 +155,16 @@
       grid-column-start: 14;
       grid-column-end: 15; } }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__element6 {
+    display: none; }
+  .header__element2 {
+    display: none; }
+  .header__element1 {
+    display: none; }
+  .header {
+    grid-template-columns: 30fr 70fr 100fr 70fr 190fr 51fr 0fr 100fr 100fr 100fr 100fr 40fr 0fr 0fr; } }
+
 @font-face {
   font-family: monblack;
   src: url(../fonts/Montserrat-Black.ttf); }
@@ -588,6 +598,10 @@ li {
     bottom: -129px;
     width: 320px;
     height: 320px; } }
+
+body {
+  margin: 0px;
+  background-color: #f8f7f7; }
 
 .catalog {
   background-color: #f8f7f7;
@@ -1644,7 +1658,7 @@ li {
     margin-top: 100px; }
     .partners h3 {
       grid-area: 1 / 2 / 2 / 3;
-      font-size: 52px;
+      font-size: 48px;
       margin: 0; }
     .partners a {
       grid-area: 1 / 3 / 2 / 4;
@@ -1780,3 +1794,271 @@ li {
       margin: 0; }
     .news__flex .news__box__hidden {
       display: none; } }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin: 0px;
+    background-color: #f8f7f7; }
+  /*.container {
+  max-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}*/
+  .header__naming {
+    width: 280px;
+    margin: 50px 20px 0 20px; }
+  .header__naming h2 {
+    font-family: monlight;
+    font-size: 38px;
+    color: #fff;
+    margin: 0; }
+  .head__count {
+    display: none; }
+  .header__naming p {
+    font-size: 16px; }
+  .head__chairimg {
+    display: none; }
+  .head__arrow {
+    position: relative;
+    top: 185px;
+    left: 20px; }
+  .head__cat {
+    /* display: inline-block; */
+    font-family: monbold;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; }
+  .head__arrow {
+    width: 96px;
+    height: 17px;
+    margin: 140px 0 0 20px;
+    display: block; }
+  .catalogue__naming {
+    width: 320px;
+    padding: 50px 20px 0 20px;
+    z-index: 2;
+    position: relative; }
+  .catalogue__naming h3 {
+    font-family: monlight;
+    font-size: 30px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 30px; }
+  .catalogue__relax {
+    padding-top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 20px;
+    display: block; }
+  .catalogue .catalogue__white {
+    background-color: #ffffff;
+    width: 100%;
+    height: 730px;
+    position: absolute;
+    top: 180px;
+    left: 0%; }
+  h3 {
+    color: #0a0a0a;
+    font-family: monlight;
+    font-size: 24px;
+    display: inline-block;
+    padding-right: 60px; }
+  .catalogue__balcony .balcony__gr2 {
+    display: none; }
+  .catalogue__relax .catalogue__relax__image {
+    display: none; }
+  .catalogue__balcony {
+    display: block; }
+  .catalogue__balcony {
+    margin: 0 20px;
+    height: 230px;
+    margin-top: 30px; }
+  .catalogue__balcony .balcony__gr1 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    align-self: start;
+    justify-self: start;
+    background-image: url(../img/balcony.jpg);
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+    background-size: contain; }
+  .catalogue__balcony .balcony__gr1 a {
+    position: absolute;
+    bottom: 37px;
+    right: 162px; }
+  .catalogue__balcony .balcony__gr1 h3 {
+    top: 30px;
+    left: 30px; }
+  .catalogue__dinner {
+    display: block;
+    width: 320px; }
+  .catalogue__dinner .catalogue__dinner__image {
+    margin: 0 20px; }
+  .catalogue__dinner .catalogue__dinner__image {
+    width: 280px;
+    height: 190px; }
+  .catalogue__dinner ul {
+    margin-left: 20px; }
+  .catalogue__dinner h3 {
+    margin-left: 20px;
+    padding-right: 37px; }
+  .catalogue__horeca {
+    margin-top: 60px;
+    display: block;
+    overflow: hidden; }
+  .catalogue__horeca h3 {
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-right: 154px; }
+  .catalogue__relax h3 {
+    padding-right: 100px; }
+  .catalogue__horeca ul {
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 20px; }
+  .catalogue__horeca .horeca__image {
+    width: 280px;
+    height: 190px;
+    margin: 30px 20px; }
+  .catalogue__swing {
+    display: block; }
+  .catalogue__swing .swing__image {
+    width: 280px;
+    height: 190px;
+    margin: 0 20px; }
+  .catalogue__swing h3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 158px; }
+  .catalogue__swing ul {
+    grid-area: 1 / 7 / 2 / 8;
+    justify-self: start;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-left: 20px; }
+  .catalogue__umbrella {
+    display: block;
+    padding-bottom: 10px; }
+  .catalogue__umbrella h3 {
+    grid-area: 1 / 4 / 2 / 5;
+    margin-top: 50px;
+    padding-right: 171px;
+    margin-left: 20px; }
+  .catalogue__umbrella ul {
+    margin-left: 20px; }
+  .catalogue__umbrella .umbrella__image {
+    width: 280px;
+    height: 190px;
+    margin: 20px; }
+  .catalogue__accessories {
+    display: block; }
+  .catalogue__accessories .accessories__image {
+    width: 280px;
+    height: 190px;
+    margin: 0 20px;
+    grid-area: 1 / 1 / 2 / 7; }
+  .catalogue__accessories h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-right: 105px; }
+  .catalogue__accessories ul {
+    margin-bottom: 20px;
+    margin-left: 20px; }
+  .catalogue__sale {
+    display: block; }
+  .catalogue__sale .sale__gr1 {
+    width: 280px;
+    height: 190px;
+    margin: 0 20px; }
+  .catalogue__sale .sale__gr1 h3 {
+    top: 30px;
+    left: 30px; }
+  .catalogue__sale .sale__gr1 a {
+    position: absolute;
+    bottom: 30px;
+    right: 30px; }
+  .catalogue__sale .sale__gr2 {
+    width: 280px;
+    height: 190px;
+    margin: 20px; }
+  .catalogue__sale .sale__gr2 h3 {
+    top: 30px;
+    left: 30px; }
+  .catalogue__sale .sale__gr2 a {
+    position: absolute;
+    bottom: 30px;
+    right: 30px; }
+  .catalogue__ready {
+    display: block;
+    padding-bottom: 40px; }
+  .catalogue__ready h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 35px; }
+  .catalogue__ready ul {
+    margin-left: 20px; }
+  .catalogue__ready .ready__image {
+    width: 280px;
+    height: 190px;
+    margin: 20px; }
+  .chairs {
+    display: block;
+    background-image: url(../img/chairs_background.jpg); }
+  .chairs .chairs__text h3 {
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 20px; }
+  .chairs .chairs__text p {
+    color: #fff;
+    font-family: monlight;
+    font-size: 18px;
+    margin: 0 20px;
+    margin-bottom: 20px; }
+  .chairs .chairs__form {
+    grid-area: 1 / 6 / 2 /8;
+    align-self: center;
+    justify-self: start;
+    width: 280px;
+    height: 190px;
+    background-color: #fff;
+    margin: 30px 20px; }
+  .chairs .chairs__form .form__date {
+    width: 60%;
+    margin-left: 20%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 35px; }
+  .chairs .chairs__form .form__submit {
+    margin-top: 25px; }
+  .about__why {
+    display: block; }
+  .about__why .about__img {
+    width: 325px;
+    height: 375px; }
+  .about__why .about__why__h3 {
+    font-size: 30px;
+    position: relative;
+    bottom: 496px;
+    margin-left: 20px; }
+  .about__why .about__grid {
+    display: block;
+    width: 275px;
+    margin-left: 51px;
+    margin-top: -302px; }
+  .about__why .about__grid h3 {
+    margin: 0;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-top: -34px; }
+  .about__why .about__grid p {
+    font-family: monlight;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-bottom: 79px; } }
